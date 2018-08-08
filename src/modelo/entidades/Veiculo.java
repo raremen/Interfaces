@@ -3,7 +3,7 @@ package modelo.entidades;
 public class Veiculo {
 	private String sModelo;
 	
-	public Veiculo() {
+	public Veiculo(String sModelo) {
 		this.sModelo = sModelo;
 	}
 

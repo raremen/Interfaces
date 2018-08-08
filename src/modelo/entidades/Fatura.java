@@ -7,6 +7,11 @@ public class Fatura {
 	public Fatura() {
 	}
 
+	public Fatura(Double dPagamentoBasico, Double dTaxa) {
+		this.dPagamentoBasico = dPagamentoBasico;
+		this.dTaxa = dTaxa;
+	}
+
 	public Double getdPagamentoBasico() {
 		return dPagamentoBasico;
 	}
